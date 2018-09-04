@@ -15,7 +15,7 @@ function currentLine(line){
     var text = "The line is currently:";
     var newArray = [];
     for(let i = 0; i > line.length; i ++){
-      push.newArray(`${i + 1} ${line[i]}`);
+      newArray.push(`${i + 1} ${line[i]}`);
       return newArray;
     }
     return newArray.join()
