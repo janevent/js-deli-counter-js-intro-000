@@ -16,10 +16,11 @@ function currentLine(line){
     var newArray = [];
     for(let i = 0; i > line.length; i ++){
       push.newArray(` ${text} ${i + 1} ${line[i]}`);
-    }
-    }else if(line.length === 0){
+    }return newArray();
+    if(line.length === 0){
       return "The line is currently empty.";
     }
+    
 } 
 
 
