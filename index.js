@@ -18,7 +18,7 @@ function currentLine(line){
       push.newArray(`${i + 1} ${line[i]}`);
       newArray;
     }
-    if(line.length === 0){
+    else if(line.length === 0){
       return "The line is currently empty.";
     }
   }  
