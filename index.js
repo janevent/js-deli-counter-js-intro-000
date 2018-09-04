@@ -12,9 +12,13 @@ function nowServing(line){
 }
 function currentLine(line){
   if(line.length > 0){
-    var text =
-    for(i = 0; i > line.length; i ++)
-  }
+    var text = "The line is currently:";
+    for(let i = 0; i > line.length; i ++){
+      return ` ${text} ${i + 1} ${line[i]}`;
+    }
+    }else if(line.length === 0){
+      return "The line is currently empty.";
+    }
 } 
 
 
