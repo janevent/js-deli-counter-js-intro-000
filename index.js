@@ -17,8 +17,8 @@ function currentLine(line){
     for(let i = 0; i < line.length; i ++){
       newArray.push(` ${i + 1}. ${line[i]}`);
     }
-   newArray.unshift(`${text}`);
-    return newArray.join();
+   
+    return text + newArray.join();
   }
     else if(line.length === 0){
       return "The line is currently empty.";
