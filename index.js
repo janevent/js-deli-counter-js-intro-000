@@ -10,15 +10,13 @@ function nowServing(line){
     return "There is nobody waiting to be served!";
   }
 }
- function currentLine(line){
-    if(line.length > 0){
-      var text = "The line is currently:";
-      for( let i = 0; i < line.length; i ++){
-        return `${text} ${i + 1}. ${line[i]}`;}
-    }
-    if (line.length === 0){
-      return "The line is currently empty.";
-    }
- }
+ 1) deli currentLine(line) says who is in line when there are people waiting:
+
+      Error: Expected 'The line is currently: 1. Bill' to equal 'The line is currently: 1. Bill, 2. Jane, 3. Ann'
+      + expected - actual
+
+      -The line is currently: 1. Bill
+      +The line is currently: 1. Bill, 2. Jane, 3. Ann
+
 
 
