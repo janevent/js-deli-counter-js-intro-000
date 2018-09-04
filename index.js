@@ -16,7 +16,7 @@ function currentLine(line){
     var newArray = [];
     for(let i = 0; i > line.length; i ++){
       push.newArray(`${i + 1} ${line[i]}`);
-      newArray;
+      return newArray;
     }
   }
     else if(line.length === 0){
