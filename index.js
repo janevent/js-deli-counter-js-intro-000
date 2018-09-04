@@ -17,7 +17,7 @@ function currentLine(line){
     for(let i = 0; i < line.length; i ++){
       newArray.push(` ${i + 1}. ${line[i]}`);
     }
-   // newArray.unshift(`${text}`);
+   newArray.unshift(`${text}`);
     return newArray.join();
   }
     else if(line.length === 0){
