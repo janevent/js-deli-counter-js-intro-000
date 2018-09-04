@@ -11,7 +11,10 @@ function nowServing(line){
   }
 }
 function currentLine(line){
-  
+  if(line.length > 0){
+    var text =
+    for(i = 0; i > line.length; i ++)
+  }
 } 
 
 
